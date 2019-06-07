@@ -13,7 +13,7 @@
 }
 
 .title {
-	font-size: 20vw;
+	font-size: 15vw;
 	text-align: center;
 	border: 40px solid lime;
 	border-radius: 50%;
@@ -90,30 +90,21 @@
 
 
 
-.slideshow { 
-    margin: 5px; 
-    position: relative; 
-    width: 20px; 
-    height: 20px; 
-    padding: 10px; 
-    box-shadow: 0 0 20px rgba(0,0,0,0.4); 
-}
 
-.slideshow > div { 
-    position: absolute; 
-    top: 10px; 
-    left: 10px; 
-    right: 10px; 
-    bottom: 10px; 
-}
 
 #slideshow {
 	width:100vw;
+	position: relative;
+	display: block;
+	height:100vh;
 }
 
 #slideshow img {
 	width: 100%;
-	filter:contrast(20);
+	filter:contrast(300);
+	position: absolute;
+	top:0;
+	left:0;
 }
 
 .title-1.active {
@@ -124,6 +115,6 @@
 	color:green;
 }
 
-.title-3.active {
+.title-3 a.active {
 	color:lime;
 }

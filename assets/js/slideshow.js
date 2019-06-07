@@ -1,4 +1,5 @@
-$("#slideshow > div:gt(0)").hide();
+$( document ).ready(function() {
+    $("#slideshow > div:gt(0)").hide();
 
 setInterval(function() { 
   $('#slideshow > div:first')
@@ -9,6 +10,4 @@ setInterval(function() {
     .appendTo('#slideshow');
 },  1000); 
 
-
-
-
+});

@@ -28,7 +28,7 @@ body {
 .clock {
 
 	font-family: arial;
-	font-size: 100px;
+	font-size: 50px;
   color: lime;
 	background-color: black;
 	margin: 5vw;
@@ -45,9 +45,3 @@ body {
 
 
 
-
-
-
-
-
-}

@@ -10,7 +10,7 @@ setTimeout(function(){
 },3000);
 
 setTimeout(function(){
-    $('.title-3').addClass('active')
+    $('.title-3 a').addClass('active')
 },4000);
 
 setTimeout(function(){
