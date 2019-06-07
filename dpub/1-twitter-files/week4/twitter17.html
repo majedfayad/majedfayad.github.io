@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> twitter17 </title>
+	<style type="text/css">
+		<style style="text/css">
+
+ 	.horizontally {
+     	height: 350px;	
+    	overflow: hidden;
+ 		position: relative;
+ 		background: yellow;
+ 		color: orange;
+ 		
+	}
+	.horizontally p {
+ 		
+ 		font-family: Abuse;
+ 		width: 100%;
+ 		height: 100%;
+ 		margin: 260px;
+ 		font-size: 500px;
+ 		line-height: 500px;
+ 		text-align: center;
+ 		/* Starting position */
+ 		-moz-transform:translateX(50%);
+ 		-webkit-transform:translateX(50%);	
+ 		transform:translateX(50%);
+ 		/* Apply animation to this element */	
+ 		-moz-animation: horizontally 2s linear infinite alternate;
+ 		-webkit-animation: horizontally 2s linear infinite alternate;
+ 		animation: horizontally 2s linear infinite alternate;
+	}
+	/* Move it (define the animation) */
+	@-moz-keyframes horizontally {
+		 0%   { -moz-transform: translateX(50%); }
+		 100% { -moz-transform: translateX(-50%); }
+	}
+	@-webkit-keyframes horizontally {
+		 0%   { -webkit-transform: translateX(50%); }
+ 		100% { -webkit-transform: translateX(-50%); }
+	}
+	@keyframes horizontally {
+ 		0%   { 
+ 		-moz-transform: translateX(50%); /* Browser bug fix */
+ 		-webkit-transform: translateX(50%); /* Browser bug fix */
+ 		transform: translateX(50%); 		
+	 }
+ 		100% { 
+ 		-moz-transform: translateX(-50%); /* Browser bug fix */
+ 		-webkit-transform: translateX(-50%); /* Browser bug fix */
+ 		transform: translateX(-50%); 
+ 	}
+
+ 	.image {
+
+ 		position: fixed;
+
+
+ 	}
+	}
+</style>
+
+<div class="horizontally">
+<p>  i.am.cardi'b.  </p>
+</div>
+
+<div class="image">
+	<img src="images/cardib.jpg">
+</div>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+body {
+	font-family: Arial,sans-serif;
+	font-size: 32px;
+	background-color: #000;
+}
+
+a {
+	color:#000;
+	text-decoration: none;
+}
+
+img {
+	width:100%;
+}
+
+* {
+	outline:1px solid lime;
+}
+
+.examples .content {
+	border-radius: 80px;
+	text-align: center;
+}
+
+.twopage {
+	width: 90vw;
+	background-color: yellow;
+	margin: 5vw;
+	border:10px solid #000;
+}
+
+
+.twopage .col {
+	height: 100vh;
+	overflow:scroll;
+}
+
+.offset-left {
+	margin-left:25%;
+}
+
+.sources a{
+	display: block;
+}
+
+

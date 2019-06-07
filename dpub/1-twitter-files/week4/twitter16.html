@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> twitter16.html </title>
+	<style type="text/css">
+		
+		body {
+			background-color: white;
+			height: 1000px;
+		}
+
+		.header {
+			position: absolute;
+			font-family: Nouveau IBM;
+			font-size: 70px;
+			width:100%;
+
+
+
+		}
+		
+		
+		.section{
+  			animation-name: spinner;
+  			animation-timing-function: linear;
+  			animation-iteration-count: infinite;
+  			animation-duration: 6s;
+  			transform-style: preserve-3d;
+		}
+
+
+		p {
+  			text-align: center;
+  			font-size: 200px;
+  			font-family: Nouveau IBM;
+  			position: absolute;
+  			width:100%;
+  			
+  			
+		}
+
+		@keyframes spinner {
+  		from {
+    		transform: rotateY(0deg);
+  		}
+  		to {
+    		transform: rotateY(-360deg);
+  		}
+		}
+
+		$colors: #000,#111,#222,#333,#444,#555,#666,#777,#888,#999,#aaa,#bbb;
+
+		@for $i from 1 through length($colors) {
+    	p:nth-child( #{$i} ){
+      	 transform: translateZ(- $i+px);
+       	color: (nth($colors, $i));
+
+    	}
+
+
+		
+
+	</style>
+</head>
+<body>
+	</div>
+	<div class="header"> CARDI B TWEET: 
+	</div>
+
+	<div class="section"> 
+	<br>	
+	<p>  I'M GOING ON LIVE TOMORROW </p>
+	<br>
+
+	</div>
+
+
+	
+
+	
+</body>
+</html>
