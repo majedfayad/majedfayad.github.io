@@ -7,13 +7,14 @@ setTimeout(function(){
 
 setTimeout(function(){
     $('.title-2').addClass('active')
-},2000);
-
-setTimeout(function(){
-    $('.title-3').addClass('active')
 },3000);
 
 setTimeout(function(){
-    $('.image-container').addClass('active')
+    $('.title-3').addClass('active')
 },4000);
 
+setTimeout(function(){
+    $('.image-container').addClass('active')
+},5000);
+
+});

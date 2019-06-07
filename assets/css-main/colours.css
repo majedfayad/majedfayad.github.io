@@ -1,0 +1,20 @@
+.bg-red {
+	background-color:red;
+}
+
+.bg-white {
+	background-color:white;
+}
+
+.bg-grad2 {
+    background: linear-gradient( to right, rgba(0, 0, 0, 0.2), #000 );
+}
+
+.bg-grad4 {
+    background: radial-gradient(#ff0000, 	#00ff00, #0000ff);
+}
+
+.bg-blue {
+	background-color: #FFA07A;
+}
+
