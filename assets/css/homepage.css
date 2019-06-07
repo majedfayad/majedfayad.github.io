@@ -28,7 +28,7 @@ body {
 .clock {
 
 	font-family: arial;
-	font-size: 300px;
+	font-size: 100px;
   color: lime;
 	background-color: black;
 	margin: 5vw;
@@ -39,8 +39,7 @@ body {
 .heading {
   font-size: 20vw;
   text-align: center;
-  border: 40px solid lime;
-  border-radius: 50%;
+  
   
 }
 
