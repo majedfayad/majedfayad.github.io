@@ -19,13 +19,14 @@ img {
 .examples .content {
 	border-radius: 80px;
 	text-align: center;
+
 }
 
 .twopage {
 	width: 90vw;
 	background-color: yellow;
 	margin: 5vw;
-	border:10px lime;
+	border: 5px solid lime;
 }
 
 
