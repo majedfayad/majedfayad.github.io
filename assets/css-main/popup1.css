@@ -90,8 +90,6 @@
 
 
 
-
-
 #slideshow {
 	width:100vw;
 	position: relative;
@@ -107,14 +105,19 @@
 	left:0;
 }
 
-.title-1.active {
+.title-1 .active {
 	color:red;
 }
 
-.title-2.active {
-	color:green;
+.title-2 .active {
+	color: blue;
 }
 
 .title-3 a.active {
-	color:lime;
+	color: lime;
 }
+
+
+
+
+
